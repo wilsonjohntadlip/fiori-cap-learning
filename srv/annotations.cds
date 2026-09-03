@@ -81,3 +81,51 @@ using AppService from './service';
       { Value: NewIV }
     ]
   );
+
+  annotate AppService.Cycles with {
+    Creator      @title: 'Creator';
+    Title        @title: 'Title';
+    CycleStatus  @title: 'Cycle Status';
+    UploadStatus @title: 'Upload Status';
+  };
+
+  annotate AppService.Cycles with @(
+    UI.HeaderInfo: {
+      TypeName: 'Cycle',
+      TypeNamePlural: 'Cycles',
+      Title: { Value: Title },
+      Description: { Value: Creator }
+    },
+    UI.SelectionFields: [ CycleStatus, UploadStatus ],
+    UI.LineItem: [
+      { Value: Title },
+      { Value: Creator },
+      { Value: CycleStatus },
+      { Value: UploadStatus }
+    ]
+  );
+
+  annotate AppService.ApprovalFlow with {
+    ModelVersion  @title: 'Model Version';
+    Model         @title: 'Model';
+    RequestType   @title: 'Request Type';
+    RequestStatus @title: 'Request Status';
+    CreatedBy     @title: 'Created By';
+  };
+
+  annotate AppService.ApprovalFlow with @(
+    UI.HeaderInfo: {
+      TypeName: 'Approval Request',
+      TypeNamePlural: 'Approval Requests',
+      Title: { Value: Model },
+      Description: { Value: CreatedBy }
+    },
+    UI.SelectionFields: [ RequestType, RequestStatus ],
+    UI.LineItem: [
+      { Value: ModelVersion },
+      { Value: Model },
+      { Value: RequestType },
+      { Value: RequestStatus },
+      { Value: CreatedBy }
+    ]
+  );
