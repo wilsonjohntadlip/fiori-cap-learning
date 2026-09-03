@@ -1,0 +1,17 @@
+ModelVersion,Model,ModelStatus,OEGroupNr,OEGroup,BrandNr,Brand,SubGroup,Region,Country,PropulsionType,DevelopmentCode,PlatformNr,Platform
+  30678700,Estasi (IT),ACTIVE,1146,AEHRA,1551,AEHRA,,Europe,Italy,BEV,Estasi,5277,Estasi
+  30678800,Furore (IT),ACTIVE,1146,AEHRA,1551,AEHRA,,Europe,Italy,BEV,Furore,5278,Furore
+  1486900,U5/U5 facelist (CN),ACTIVE,896,AIWAYS,1198,AIWAYS,AIWAYS,Asia/Pacific,China,BEV,SEV001,5207,SEV
+  30740700,Bada Dost (IN),ACTIVE,219,ASHOK LEYLA...,26,ASHOK LEYLAND PV,,Asia/Pacific,India,ICE,613T,401248,PHOENIX
+  30520700,DB12 (GB),ACTIVE,673,ASTON MARTIN,3,ASTON MARTIN,,Europe,Great Britain,All Types,AM5,80,VH
+  30678600,Impeto (IT),ACTIVE,1146,AEHRA,1551,AEHRA,,Europe,Italy,BEV,Impeto,5276,Impeto
+  30738000,Canter (JP),ACTIVE,1183,ARCHION,213,FUSO,,Asia/Pacific,Japan,All Types,Canter,762,Canter
+  1038600,Dutro Gen 2 (JP),ACTIVE,1183,ARCHION,1145,HINO PV,,Asia/Pacific,Japan,All Types,DUTRO,4937,Dutro
+  990100,Dost (IN),ACTIVE,219,ASHOK LEYLA...,26,ASHOK LEYLAND PV,,Asia/Pacific,India,ICE,C22,401221,DOST
+  30740800,Saathi (IN),ACTIVE,219,ASHOK LEYLA...,26,ASHOK LEYLAND PV,,Asia/Pacific,India,ICE,C23,401249,DOST(2)
+  30740500,iev3 (IN),ACTIVE,219,ASHOK LEYLA...,1597,Switch Mobility,Switch Mobility,Asia/Pacific,India,BEV,C22,401221,DOST
+  30740600,iev4 (IN),ACTIVE,219,ASHOK LEYLA...,1597,Switch Mobility,Switch Mobility,Asia/Pacific,India,BEV,613T,401248,PHOENIX
+  554200,DBS Vanquish Gen.3 (GB),ACTIVE,673,ASTON MARTIN,3,ASTON MARTIN,,Europe,Great Britain,All Types,AM3,80,VH
+  30274400,DBS Vanquish Gen.4 (GB),ACTIVE,673,ASTON MARTIN,3,ASTON MARTIN,,Europe,Great Britain,All Types,AM3,80,VH
+  554300,DBX Crossover (GB),ACTIVE,673,ASTON MARTIN,3,ASTON MARTIN,,Europe,Great Britain,All Types,AM8,80,VH
+  30274500,DBX Crossover Gen.2 (GB),ACTIVE,673,ASTON MARTIN,3,ASTON MARTIN,,Europe,Great Britain,All Types,AM8,80,VH

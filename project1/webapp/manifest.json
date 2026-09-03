@@ -1,0 +1,178 @@
+{
+  "_version": "1.86.0",
+  "sap.app": {
+    "id": "project1",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "0.0.1"
+    },
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}",
+    "resources": "resources.json",
+    "sourceTemplate": {
+      "id": "@sap/generator-fiori:basic",
+      "version": "1.28.0",
+      "toolsId": "0b411d79-6f1c-4f14-81c0-c4debd26d4dc"
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "flexEnabled": true,
+    "dependencies": {
+      "minUI5Version": "1.150.0",
+      "libs": {
+        "sap.m": {},
+        "sap.ui.core": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "project1.i18n.i18n"
+        }
+      }
+    },
+    "resources": {
+      "css": [
+        {
+          "uri": "css/style.css"
+        },
+        {
+          "uri": "css/modeldetail.css"
+        }
+      ]
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "controlAggregation": "pages",
+        "controlId": "app",
+        "transition": "slide",
+        "type": "View",
+        "viewType": "XML",
+        "path": "project1.view",
+        "async": true,
+        "viewPath": "project1.view"
+      },
+      "routes": [
+        {
+          "name": "RouteView1",
+          "pattern": ":?query:",
+          "target": [
+            "TargetView1"
+          ]
+        },
+        {
+          "name": "RouteMyCycles",
+          "pattern": "mycycles",
+          "target": [
+            "TargetMyCycles"
+          ]
+        },
+        {
+          "name": "RouteApprovalFlow",
+          "pattern": "approvalflow",
+          "target": [
+            "TargetApprovalFlow"
+          ]
+        },
+        {
+          "name": "RouteApprovalFlowModel",
+          "pattern": "approvalflowmodel",
+          "target": [
+            "TargetApprovalFlowModel"
+          ]
+        },
+        {
+          "name": "RouteStatus",
+          "pattern": "status",
+          "target": [
+            "TargetStatus"
+          ]
+        },
+        {
+          "name": "RouteCycleModel",
+          "pattern": "cyclemodel",
+          "target": [
+            "TargetCycleModel"
+          ]
+        },
+		{
+    	  "name": "RouteModelsWithMe",
+          "pattern": "modelswithme",
+          "target": [
+            "TargetModelsWithMe"
+          ]
+        },
+        {
+          "name": "RouteModelDetail",
+          "pattern": "modeldetail",
+          "target": [
+            "TargetModelDetail"
+          ]
+        }
+      ],
+      "targets": {
+        "TargetView1": {
+          "id": "View1",
+          "name": "View1"
+        },
+        "TargetMyCycles": {
+          "id": "MyCycles",
+          "name": "MyCycles"
+        },
+        "TargetApprovalFlow": {
+          "id": "ApprovalFlow",
+          "name": "ApprovalFlow"
+        },
+        "TargetApprovalFlowModel": {
+          "id": "ApprovalFlowModel",
+          "name": "ApprovalFlowModel"
+        },
+        "TargetStatus": {
+          "id": "Status",
+          "name": "Status"
+        },
+        "TargetCycleModel": {
+          "id": "CycleModel",
+          "name": "CycleModel"
+        },
+		"TargetModelsWithMe": {
+	      "id": "ModelsWithMe",
+	      "name": "ModelsWithMe"
+        },
+        "TargetModelDetail": {
+          "id": "ModelDetail",
+          "name": "ModelDetail"
+        }
+      }
+    },
+    "rootView": {
+      "viewName": "project1.view.App",
+      "type": "XML",
+      "id": "App",
+      "async": true
+    }
+  }
+}
