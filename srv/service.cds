@@ -1,5 +1,7 @@
 using { fiori.learning as db } from '../db/schema';
 
-service ModelService {
-    entity Models as projection on db.Models;
-}
+  service AppService {
+    entity Models        as projection on db.Models;
+    entity Cycles         as projection on db.Cycles;
+    entity ApprovalFlow  as projection on db.ApprovalFlow;
+  }

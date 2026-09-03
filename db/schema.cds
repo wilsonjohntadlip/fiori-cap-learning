@@ -16,3 +16,20 @@ key ModelVersion   : String(20);
     PlatformNr      : String(10);
     Platform        : String(100);
 }
+
+entity Cycles {
+    key ID           : Integer;
+        Creator      : String(100);
+        Title        : String(100);
+        CycleStatus  : String(30);
+        UploadStatus : String(30);
+  }
+
+entity ApprovalFlow {
+    key ID            : Integer;
+        ModelVersion  : String(20);
+        Model         : String(100);
+        RequestType   : String(10) enum { Create; Update; Delete; };
+        RequestStatus : String(10) enum { Pending; Approved; Rejected; };
+        CreatedBy     : String(100);
+  }

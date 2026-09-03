@@ -1,0 +1,21 @@
+ID,ModelVersion,Model,RequestType,RequestStatus,CreatedBy
+  1,MV-2026-001,Sales Forecast,Create,Pending,Juan Dela Cruz
+  2,MV-2026-002,Inventory Planning,Update,Approved,Maria Santos
+  3,MV-2026-003,Demand Forecast,Create,Rejected,Pedro Reyes
+  4,MV-2026-004,Supply Planning,Update,Pending,Anna Garcia
+  5,MV-2026-005,Production Planning,Create,Approved,Michael Tan
+  6,MV-2026-006,Financial Forecast,Update,Pending,Sofia Cruz
+  7,MV-2026-007,Workforce Planning,Delete,Rejected,Daniel Lim
+  8,MV-2026-008,Revenue Planning,Create,Approved,James Wilson
+  9,MV-2026-009,Expense Forecast,Update,Pending,Lisa Fernandez
+  10,MV-2026-010,Budget Planning,Create,Approved,Robert Garcia
+  11,MV-2026-011,Headcount Forecast,Update,Rejected,Kevin Wong
+  12,MV-2026-012,Procurement Planning,Create,Pending,Angela Ramos
+  13,MV-2026-013,Logistics Forecast,Update,Approved,Christopher Lee
+  14,MV-2026-014,Capacity Planning,Delete,Pending,Jennifer Tan
+  15,MV-2026-015,Demand Planning,Create,Approved,Mark Bautista
+  16,MV-2026-016,Order Forecast,Update,Pending,Rachel Mendoza
+  17,MV-2026-017,Resource Planning,Create,Rejected,Anthony Rivera
+  18,MV-2026-018,Cost Forecast,Update,Approved,Grace Villanueva
+  19,MV-2026-019,Sales Planning,Create,Pending,Steven Aquino
+  20,MV-2026-020,Operations Planning,Update,Approved,Nicole Torres
